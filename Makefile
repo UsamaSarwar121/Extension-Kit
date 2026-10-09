@@ -1,4 +1,4 @@
-SUBDIRS := AD-BOF Creds-BOF Elevation-BOF Execution-BOF Injection-BOF LateralMovement-BOF Postex-BOF Process-BOF SAL-BOF SAR-BOF
+SUBDIRS := AD-BOF Creds-BOF Elevation-BOF Execution-BOF Injection-BOF LateralMovement-BOF Postex-BOF Process-BOF SAL-BOF SAR-BOF Evasion-BOF Persistence-BOF Token-BOF Network-BOF Collection-BOF Cloud-BOF Container-BOF Satellite-BOF Mobile-BOF Infrastructure-BOF
 
 .PHONY: all $(SUBDIRS) clean docker-build
 
